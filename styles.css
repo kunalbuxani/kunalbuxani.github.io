@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Px437 IBM VGA8";
+    src: url("/Px437_IBM_VGA8.ttf") format("truetype");
+}
+
+body {
+    background-color: #00A8AF;
+    font-family: "Px437 IBM VGA8";
+}
