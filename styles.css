@@ -1,9 +1,25 @@
 @font-face {
     font-family: "Px437 IBM VGA8";
-    src: url("/Px437_IBM_VGA8.ttf") format("truetype");
+    src: url("Px437_IBM_VGA8.ttf") format("truetype");
 }
 
 body {
     background-color: #00A8AF;
     font-family: "Px437 IBM VGA8";
+}
+
+.title-card {
+    box-shadow: 1em 1em black;
+    color: white;
+    text-align: center;
+    background-color: #0000AF;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 0%;
+    margin-bottom: 4em;
+}
+
+.wait {
+    color: #0000AF;
 }
