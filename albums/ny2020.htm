@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
+    <title>New York 2020</title>
+    <style>
+        .galleria {
+            width: 1024px;
+            height: 768px;
+            background: #00A8AF
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex flex-row justify-content-center">
+        <div class="galleria">
+            <img src="../images/ny2020/chelsea1.jpg" data-title="A slice of New York" />
+            <img src="../images/ny2020/chelsea2.jpg" />
+            <img src="../images/ny2020/cab.jpg" />
+            <img src="../images/ny2020/cellar.jpg" data-title="A seat at the Cellar" />
+            <img src="../images/ny2020/highline.jpg" data-title="A monolith by the High Line" />
+        </div>
+    </div>
+
+    <div class="d-flex flex-row links">
+        <p><a href="index.htm">PHOTO ALBUMS</a> / <a href="../index.htm">HOME</a></p>
+    </div>
+
+    <script>
+        (function () {
+            Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js');
+            Galleria.run('.galleria');
+        }());
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
