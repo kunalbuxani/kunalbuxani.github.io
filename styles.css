@@ -30,6 +30,10 @@ body {
     text-decoration: none;
 }
 
+.links a:visited {
+    color: purple;
+}
+
 .wait {
     color: #0000AF;
 }
