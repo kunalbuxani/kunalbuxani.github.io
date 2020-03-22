@@ -10,13 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
     <title>New York 2020</title>
-    <style>
-        .galleria {
-            width: 1024px;
-            height: 768px;
-            background: #00A8AF
-        }
-    </style>
 </head>
 
 <body>
@@ -37,6 +30,11 @@
     <script>
         (function () {
             Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/themes/folio/galleria.folio.min.js');
+            Galleria.configure({
+                maxScaleRatio: 1.2,
+                width: 1024,
+                height: 1024
+            })
             Galleria.run('.galleria');
         }());
     </script>
