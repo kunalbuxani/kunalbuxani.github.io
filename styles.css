@@ -37,3 +37,10 @@ body {
 .wait {
     color: #0000AF;
 }
+
+.gallery {
+    border-style: double;
+    border-color: rgb(178, 178, 196);
+    margin: 0.1em;
+    padding: 1em;
+}
